@@ -9,6 +9,7 @@ public class Employee {
 //    Define fields for this entity
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private int id;
 
     @Column(name = "first_name")
